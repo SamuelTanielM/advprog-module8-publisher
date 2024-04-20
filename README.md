@@ -9,3 +9,11 @@ URL "amqp://guest:guest@localhost:5672" yang sama pada program pelanggan dan pen
 
 Screen of my running RabbitMQ
 ![Screen of my running RabbitMQ](images/rabbit.png)
+
+Screen of subscriber terminal with 5 messages
+![Screen subscriber terminal with 5 messages](images/subcsriber-publisher-terminal.png)
+Screenshoot ini menunjukkan terminal subscriber dimana subsrciber berhasil menerima 5 event message broker dari publisher ditunjukkan dengan tiap kali melakukan cargo run di publisher.
+
+
+
+
