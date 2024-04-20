@@ -18,7 +18,9 @@ Screen of rabbit spikes
 ![Screen rabbit when publisher is running](images/subscriber-publisher-rabbit.png)
 Screenshoot ini menunjukkan spikes pada graf di rabbit ketika melakukan cargo run di publisher. Ditunjukkan ada spike pada publish dan consumer ack sebesar 1.00/s
 
-
+Screen of slow subscriber simulation
+![Screen rabbit when doing slow subscriber simulation](images/slow-subscriber-publisher-rabbit.png)
+Screenshoot ini menunjukkan spikes pada graf di rabbit ketika melakukan cargo run di publisher berkali-kali disertai dengan perubahan pada subscriber dimana terdapat delay 1 second tiap proses.
 
 
 
