@@ -1,3 +1,6 @@
+Nama    : Samuel Taniel Mulyadi
+NPM     : 2206081805
+
 a. How many data your publisher program will send to the message broker in one run?
 Publisher program akan mengirimkan 5 data ke message broker dalam satu kali proses.
 
