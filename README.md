@@ -21,7 +21,12 @@ Screenshoot ini menunjukkan spikes pada graf di rabbit ketika melakukan cargo ru
 Screen of slow subscriber simulation
 ![Screen rabbit when doing slow subscriber simulation](images/slow-subscriber-publisher-rabbit.png)
 Screenshoot ini menunjukkan spikes pada graf di rabbit ketika melakukan cargo run di publisher berkali-kali disertai dengan perubahan pada subscriber dimana terdapat delay 1 second tiap proses.
+= The total number of queue is as such: 10 di mesin saya hal ini karena saya menjalankan multiplenya 2 kali, jika 3 kali maka akan menunjukkan 15 queue, jika 4 kali akan menjadi 20 queue dst.
 
+Screen of slow subscriber simulation with three cargo run
+![Screen rabbit when doing slow subscriber simulation](images/multiple-slow-subscriber-publisher-rabbit.png)
+Screenshoot ini menunjukkan spikes pada graf di rabbit ketika melakukan cargo run dengan tiga console subscriber disertai dengan perubahan pada subscriber dimana terdapat delay 1 second tiap proses serta berkali-kali cargo run publisher.
+= Menunjukkan ada improvement pada queue messagesnya disini saya menjalankan 3 yang harusnya 15 queued messages tetapi menjadi kurang lebih setengahnya atau 8,5.
 
 
 
