@@ -14,6 +14,12 @@ Screen of subscriber terminal with 5 messages
 ![Screen subscriber terminal with 5 messages](images/subcsriber-publisher-terminal.png)
 Screenshoot ini menunjukkan terminal subscriber dimana subsrciber berhasil menerima 5 event message broker dari publisher ditunjukkan dengan tiap kali melakukan cargo run di publisher.
 
+Screen of rabbit spikes
+![Screen rabbit when publisher is running](images/subscriber-publisher-rabbit.png)
+Screenshoot ini menunjukkan spikes pada graf di rabbit ketika melakukan cargo run di publisher. Ditunjukkan ada spike pada publish dan consumer ack sebesar 1.00/s
+
+
+
 
 
 
